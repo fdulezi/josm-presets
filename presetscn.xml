@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets
   xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
-  author="http://openstreetmap.tw/"
-  version="34"
-  description="Some presets only use in Taiwan region"
-  zh_TW.description="一些只有臺灣才有的預設組合"
-  shortdescription="Taiwan Only"
+  author="https://www.openstreetmap.org/user/fdulezi"
+  version="1"
+  description="Some presets use in China region"
+  zh_CN.description="适用于中国大陆的预设"
+  shortdescription="China presets"
   link="https://github.com/OsmHackTW/josm-presets"
-  baselanguage="zh_TW">
+  baselanguage="zh_CN">
 
 <!--Some notes-->
   <!--Special Thanks!!!
@@ -17,6 +17,7 @@
   <!--Presets Reference
   1."taiwan_chain_store" from osm.tw/mcdlee
     source url:https://github.com/OsmHackTW/taiwan_chain_store
+  2.taiwan only presets: https://github.com/OsmHackTW/josm-presets
   -->
 
 <!--Templates-->
