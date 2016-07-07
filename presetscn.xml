@@ -2,11 +2,11 @@
 <presets
   xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="https://www.openstreetmap.org/user/fdulezi"
-  version="1"
+  version="alpha"
   description="Some presets use in China region"
-  zh_CN.description="适用于中国大陆的预设"
+  zh_CN.description="此预设应用于中国大陆地区，包括常见超市、银行、便利店等。本预设基于https://github.com/OsmHackTW/josm-presets进行修改。"
   shortdescription="China presets"
-  link="https://github.com/OsmHackTW/josm-presets"
+  link="https://github.com/fdulezi/josm-presets"
   baselanguage="zh_CN">
 
 <!--Some notes-->
@@ -76,14 +76,7 @@
 
   -->
   <separator/>
-  <group name="連鎖商家" >
-    <item name="ATM" type="node" preset_name_label="true" 
-      icon="styles/standard/money/atm.png">
-      <!--https://wiki.openstreetmap.org/wiki/Tag:amenity%3Datm-->
-      <key key="amenity" value="atm" />
-      <text text="營運公司" key="operator" />
-      <combo text="存款" key="cash_in" value="yes,no" editable="false" />
-    </item>
+  <group name="连锁商店" >
     <group name="便利商店"
       icon="presets/convenience.png">
       <item name="7-11" type="node,closedway">
@@ -98,10 +91,10 @@
         <label text="新增或編輯一家全家便利商店" />
         <reference ref="convenience" />
       </item>
-      <item name="萊爾富" type="node,closedway">
-        <key key="brand" value="萊爾富" />
-        <key key="operator" value="萊爾富國際股份有限公司" />
-        <label text="新增或編輯一家萊爾富" />
+      <item name="罗森" type="node,closedway">
+        <key key="brand" value="罗森" />
+        <key key="operator" value="罗森" />
+        <label text="新增或编辑一家罗森" />
         <reference ref="convenience" />
       </item>
       <item name="OK·MART" type="node,closedway">
@@ -123,6 +116,8 @@
       </item>
       <item name="家乐福" type="node,closedway">
         <key key="brand" value="家乐福" />
+        <key key="name" value="家乐福(xx店)" />
+        <key key="name:en" value="Carrefour" />
         <key key="operator" value="Carrefour supermarket company" />
         <label text="新增或编辑一家家乐福" />
         <reference ref="supermarket" />
@@ -135,12 +130,16 @@
       </item>
       <item name="乐购" type="node,closedway">
         <key key="brand" value="乐购" />
+        <key key="name" value="乐购(xx店)" />
+        <key key="name:en" value="TESCO" />
         <key key="operator" value="华润集团" />
         <label text="新增或编辑一家乐购" />
         <reference ref="supermarket" />
       </item>
       <item name="永旺" type="node,closedway">
         <key key="brand" value="永旺" />
+        <key key="name" value="永旺(xx店)" />
+        <key key="name:en" value="AEON" />
         <key key="operator" value="" />
         <label text="新增或编辑一家永旺" />
         <reference ref="supermarket" />
