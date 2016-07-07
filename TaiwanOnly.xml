@@ -142,7 +142,7 @@
     <group name="超市"
       icon="styles/standard/shop/supermarket.svg">
       <item name="华润万家" type="node,closedway">
-        <key key="brand" value=华润万家" />
+        <key key="brand" value="华润万家" />
         <key key="operator" value="全聯實業股份有限公司" />
         <label text="新增或編輯一家全聯" />
         <reference ref="supermarket" />
