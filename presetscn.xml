@@ -36,7 +36,6 @@
     <text key="name" text="店名" />
     <reference ref="addr" />
     <reference ref="wheelchair" />
-    <reference ref="atm" />
     <reference ref="open_hours" />
   </chunk>
   <chunk id="supermarket">
@@ -77,34 +76,6 @@
 
   -->
   <separator/>
-  <group name="非商家">
-    <item name="獨棟透天厝" type="closedway" preset_name_label="true">
-      <key key="building" value="house" />
-      <reference ref="addr" />
-    </item>
-    <item name="連棟透天厝" type="closedway" preset_name_label="true">
-      <key key="building" value="terrace" />
-      <reference ref="addr" />
-    </item>
-  </group>
-  <group name="一般商家">
-    <!--to be discussed
-    <item name="檳榔攤" type="node,closedway" preset_name_lable="true">
-      <key key="shop" value="deli" />
-      <text key="臺灣檳榔" text="name" />
-    </item>
-    -->
-    <item name="茶行" type="node,closedway" preset_name_lable="true" icon="styles/standard/shop/groceries/tea.svg">
-      <key key="shop" value="tea" />
-      <link href="https://wiki.openstreetmap.org/wiki/Tag:shop%3Dtea"/>
-      <reference ref="shop" />
-    </item>
-    <item name="通訊行" type="node,closedway" preset_name_lable="true" icon="presets/mobile_phone.png">
-      <key key="shop" value="mobile_phone"/>
-      <link href="https://wiki.openstreetmap.org/wiki/Tag:shop%3Dmobile_phone"/>
-      <reference ref="shop" />
-    </item>
-  </group>
   <group name="連鎖商家" >
     <item name="ATM" type="node" preset_name_label="true" 
       icon="styles/standard/money/atm.png">
@@ -144,32 +115,32 @@
       icon="styles/standard/shop/supermarket.svg">
       <item name="华润万家" type="node,closedway">
         <key key="brand" value="华润万家" />
-        <key key="operator" value="全聯實業股份有限公司" />
-        <label text="新增或編輯一家全聯" />
+        <key key="operator" value="华润集团华润万家有限公司" />
+        <label text="新增或编辑一家华润万家" />
         <reference ref="supermarket" />
       </item>
-      <item name="美廉社" type="node,closedway">
-        <key key="brand" value="美廉社" />
-        <key key="operator" value="三商行股份有限公司家購事業部" />
-        <label text="新增或編輯一家美廉社" />
+      <item name="家乐福" type="node,closedway">
+        <key key="brand" value="家乐福" />
+        <key key="operator" value="Carrefour supermarket company" />
+        <label text="新增或编辑一家家乐福" />
         <reference ref="supermarket" />
       </item>
-      <item name="楓康" type="node,closedway">
-        <key key="brand" value="台灣楓康超市" />
-        <key key="operator" value="台灣楓康超市股份有限公司" />
-        <label text="新增或編輯一家楓康" />
+      <item name="沃尔玛" type="node,closedway">
+        <key key="brand" value="沃尔玛" />
+        <key key="operator" value="" />
+        <label text="新增或编辑一家沃尔玛" />
         <reference ref="supermarket" />
       </item>
-      <item name="頂好" type="node,closedway">
-        <key key="brand" value="頂好" />
-        <key key="operator" value="惠康百貨股份有限公司" />
-        <label text="新增或編輯一家頂好" />
+      <item name="乐购" type="node,closedway">
+        <key key="brand" value="乐购" />
+        <key key="operator" value="华润集团" />
+        <label text="新增或编辑一家乐购" />
         <reference ref="supermarket" />
       </item>
-      <item name="松青超市" type="node,closedway">
-        <key key="brand" value="松青超市" />
-        <key key="operator" value="松青商業股份有限公司" />
-        <label text="新增或編輯一家松青超市" />
+      <item name="永旺" type="node,closedway">
+        <key key="brand" value="永旺" />
+        <key key="operator" value="" />
+        <label text="新增或编辑一家永旺" />
         <reference ref="supermarket" />
       </item>
     </group>
