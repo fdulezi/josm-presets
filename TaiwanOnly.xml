@@ -28,90 +28,6 @@
   <!--not finished yet-->
 
 <!--=====chunks=====-->
-  <chunk id="addr">
-    <key key="addr:country" value="TW" />
-    <text key="addr:postcode" text="郵遞區號" />
-    <label text="底部有中華郵政3+2郵遞區號查詢頁面連結" />
-    <text key="addr:full" text="地址" />
-    <label text="請填入完整中文地址，國家免填。" />
-    <link href="http://www.post.gov.tw/post/internet/Postal/index.jsp?ID=208" />
-  </chunk>
-  <chunk id="addr_detail">
-    <!--addr ref:
-    https://wiki.openstreetmap.org/wiki/WikiProject_Taiwan/Taiwan_tagging#Addresses_and_place_names_.5BProposed.5D
-    -->
-    <label text="請填入地址，有疑問請參照底部OSM Wiki連結。" icon="styles/standard/service/post_office.png" />
-    <text key="addr:postcode" text="郵遞區號" />
-    <label text="(底部有中華郵政3+2郵遞區號查詢頁面連結)" />
-    <key key="addr:country" value="TW" />
-    <combo key="addr:state" text="縣、(直轄)市" values_searchable="true">
-      <list_entry value="基隆市" display_value="基隆市" />
-      <list_entry value="臺北市" display_value="臺北市" />
-      <list_entry value="新北市" display_value="新北市" />
-      <list_entry value="桃園縣" display_value="桃園縣" />
-      <list_entry value="新竹市" display_value="新竹市" />
-      <list_entry value="新竹縣" display_value="新竹縣" />
-      <list_entry value="苗栗縣" display_value="苗栗縣" />
-      <list_entry value="臺中市" display_value="臺中市" />
-      <list_entry value="彰化縣" display_value="彰化縣" />
-      <list_entry value="南投縣" display_value="南投縣" />
-      <list_entry value="雲林縣" display_value="雲林縣" />
-      <list_entry value="嘉義市" display_value="嘉義市" />
-      <list_entry value="嘉義縣" display_value="嘉義縣" />
-      <list_entry value="臺南市" display_value="臺南市" />
-      <list_entry value="高雄市" display_value="高雄市" />
-      <list_entry value="屏東縣" display_value="屏東縣" />
-      <list_entry value="宜蘭縣" display_value="宜蘭縣" />
-      <list_entry value="花蓮縣" display_value="花蓮縣" />
-      <list_entry value="臺東縣" display_value="臺東縣" />
-      <list_entry value="澎湖縣" display_value="澎湖縣" />
-      <list_entry value="金門縣" display_value="金門縣" />
-      <list_entry value="連江縣" display_value="連江縣" />
-    </combo>
-    <text key="addr:district" text="區" />
-    <text key="addr:city" text="鄉、鎮、市" />
-    <text key="addr:place" text="村、里" />
-    <text key="addr:hamlet" text="比村小的地名" />
-    <text key="addr:street" text="街道巷弄" />
-    <label text="號、棟、樓與室僅填數字或英文。" />
-    <text key="addr:housenumber" text="號(例:34-5)" />
-    <text key="addr:unit" text="棟(例:B)" />
-    <text key="addr:floor" text="樓(例:22)" />
-    <text key="addr:door" text="室(例:307A)" />
-    <text key="name" text="屋名(例:柯寓)" />
-    <space/>
-    <label text="或輸入完整地址" icon="styles/standard/service/post_office.png" />
-    <text key="addr:full" text="地址" />
-    <space/>
-    <link href="https://wiki.openstreetmap.org/wiki/WikiProject_Taiwan/Taiwan_tagging#Addresses_and_place_names_.5BProposed.5D" />
-    <link href="http://www.post.gov.tw/post/internet/Postal/index.jsp?ID=208" />
-  </chunk>
-  <chunk id="contact">
-    <text key="phone" text="電話號碼" />
-    <label text="市話格式以02-3456-7890為例：+886234567890；手機格式以09-8765-4321為例：+886987654321" />
-    <text key="fax" text="傳真" />
-    <text key="website" text="網站" />
-    <text key="email" text="Email" />
-  </chunk>
-  <chunk id="wheelchair">
-    <combo key="wheelchair" text="Wheelchair" values="yes,limited,no,designated" editable="false" />
-    <text key="wheelchair:description:zh-tw" text="無障礙受限描述" />
-  </chunk>
-  <chunk id="atm">
-    <!--This one is for loactions where atm is avalible there!-->
-    <combo key="atm" text="ATM" values="yes,no" editable="false" />
-  </chunk>
-  <chunk id="open_hours">
-    <text key="opening_hours" text="營業時間" />
-  </chunk>
-  <chunk id="internet">
-    <!-- link:https://wiki.openstreetmap.org/wiki/Key:internet_access-->
-    <combo key="internet_access" text="網路" values="yes,no,wlan,wired,terminal,service"/>
-    <combo key="internet_access:fee" text="費用" values="yes,no"/>
-    <combo key="internet_access:fee" text="費用" values="yes,no"/>
-    <text key="internet_access:ssid" text="網路名稱(SSID)"/>
-    <text key="internet_access:operator" text="營運商"/>
-  </chunk>
 
   <!-- chunks made for particular sets -->
   <chunk id="convenience">
@@ -225,8 +141,8 @@
     </group>
     <group name="超市"
       icon="styles/standard/shop/supermarket.svg">
-      <item name="全聯" type="node,closedway">
-        <key key="brand" value="全聯福利中心" />
+      <item name="华润万家" type="node,closedway">
+        <key key="brand" value=华润万家" />
         <key key="operator" value="全聯實業股份有限公司" />
         <label text="新增或編輯一家全聯" />
         <reference ref="supermarket" />
