@@ -156,70 +156,45 @@
     </group>
     <group name="加油站"
       icon="presets/fuel.png">
-      <item name="台灣中油" typse="node,closedway">
-        <key key="brand" value="台灣中油" />
-        <key key="operator" value="台灣中油股份有限公司" />
-        <label text="新增或編輯一家台灣中油加油站" />
+      <item name="中石化加油站" typse="node,closedway">
+        <key key="brand" value="中国石化" />
+        <key key="operator" value="中国石化" />
+        <label text="新增或编辑一家中石化加油站" />
         <reference ref="fuel_station" />
       </item>
-      <item name="北基加油站" type="node,closedway">
-        <key key="brand" value="台灣中油" /> 
-        <key key="operator" value="北基國際股份有限公司" />
-        <label text="新增或編輯一家北基加油站" />
+      <item name="中石油加油站" type="node,closedway">
+        <key key="brand" value="中国石油" /> 
+        <key key="operator" value="中国石油" />
+        <label text="新增或编辑一家中石油加油站" />
         <reference ref="fuel_station" />
       </item>
-      <item name="Smile" type="node,closedway">
-        <key key="brand" value="台灣中油" /> 
-        <key key="operator" value="統一精工股份有限公司" />
-        <label text="新增或編輯一家Smile加油站" />
-        <reference ref="fuel_station" />
-      </item>
-      <item name="台灣優力" type="node,closedway">
-        <key key="brand" value="台灣中油" /> <!--號稱百分百使用台灣中油油品-->
-        <key key="operator" value="台灣優力流通事業股份有限公司" />
-        <label text="新增或編輯一家台灣優力加油站" />
-        <reference ref="fuel_station" />
-      </item>
-      <separator/>
-      <item name="台亞石油" type="node,closedway">
-        <key key="brand" value="台塑石油" />
-        <key key="operator" value="台亞石油股份有限公司" />
-        <label text="新增或編輯一家台塑石油加油站" />
-        <reference ref="fuel_station" />
-      </item>
-      <item name="福懋加油站" type="node,closedway">
-        <key key="brand" value="台塑石油" /> <!--為台塑關係企業-->
-        <key key="operator" value="福懋興業股份有限公司" />
-        <label text="新增或編輯一家福懋加油站" />
-        <reference ref="fuel_station" />
-      </item>
-      <item name="西歐加油站" type="node,closedway">
-        <key key="brand" value="台塑石油" /> <!--目前供應商為台塑石油-->
-        <key key="operator" value="西歐加油站股份有限公司" />
-        <label text="新增或編輯一家西歐加油站" />
+      <item name="壳牌加油站" type="node,closedway">
+        <key key="brand" value="壳牌" /> 
+        <key key="operator" value="壳牌" />
+        <label text="新增或编辑一家壳牌加油站" />
         <reference ref="fuel_station" />
       </item>
     </group>
-    <group name="電信商" icon="presets/mobile_phone.png">
-      <item name="中華電信" type="node,closedway">
-        <key key="name" value="中華電信"/>
-        <key key="brand" value="中華電信"/>
-        <key key="brand:en" value="Chunghwa Telecom"/>
-        <key key="operator" value="中華電信股份有限公司"/>
+    <group name="电信商" icon="presets/mobile_phone.png">
+      <item name="中国电信" type="node,closedway">
+        <key key="name" value="中国电信xx营业厅"/>
+        <key key="brand" value="中国电信"/>
+        <key key="brand:en" value="China Telecom"/>
+        <key key="operator" value="中国电信"/>
         <reference ref="tel_com" />
       </item>
-      <item name="遠傳電信">
-        <key key="name" value="遠傳電信"/>
-        <key key="brand" value="遠傳"/>
-        <key key="brand:en" value="Far EasTone"/>
-        <key key="operator" value="遠傳電信股份有限公司"/>
+      <item name="中国移动">
+        <key key="name" value="中国移动xx营业厅"/>
+        <key key="brand" value="中国移动"/>
+        <key key="brand:en" value="CMCC"/>
+        <key key="operator" value="中国移动"/>
         <reference ref="tel_com" />
       </item>
-      <item name="台湾大哥大">
-        <key key="name" value="台湾大哥大"/>
-        <key key="brand" value="台湾大哥大"/>
-        <key key="brand:en" value="Taiwan Mobile"/>
-        <key key="operator" value="台灣大哥大股份有限公司"/>
+      <item name="中国联通">
+        <key key="name" value="中国联通xx营业厅"/>
+        <key key="brand" value="中国联通"/>
+        <key key="brand:en" value=China Unicom"/>
+        <key key="operator" value="中国联通"/>
         <reference ref="tel_com" />
       </item>
     </group>
