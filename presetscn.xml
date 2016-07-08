@@ -57,14 +57,14 @@
   </chunk>
   <chunk id="fuel_station">
     <key key="amenity" value="fuel" />
-    <text key="name" text="站名" />
+    <reference ref="name" />
     <!--https://wiki.openstreetmap.org/wiki/Key:fuel-->
     <checkgroup columns="3">
-      <check key="fuel:diesel" text="超級柴油" default="on" />
-      <check key="fuel:biodiesel" text="生質柴油" />
-      <check key="fuel:octane_92" text="92無鉛" default="on" />
-      <check key="fuel:octane_95" text="95無鉛" default="on" />
-      <check key="fuel:octane_98" text="98無鉛" default="on" />
+      <check key="fuel:diesel" text="柴油" default="on" />
+      <check key="fuel:biodiesel" text="生物柴油" />
+      <check key="fuel:octane_90" text="90号汽油" default="on" />
+      <check key="fuel:octane_93" text="93号汽油" default="on" />
+      <check key="fuel:octane_97" text="97号汽油" default="on" />
     </checkgroup>
     <text key="opening_hours" text="Opening Hours" default="24/7" />
     <reference ref="addr" />
