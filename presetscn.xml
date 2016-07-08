@@ -29,18 +29,27 @@
   <!--not finished yet-->
 
 <!--=====chunks=====-->
-
+  <chunk id="name">
+    <!--name ref:
+    https://wiki.openstreetmap.org/wiki/Multilingual_names#China
+    -->
+    <text key="name" text="中文名称" />
+    <text key="name:en" text="英文名称" />
+    <text key="name:zh" text="中文名称(可选)" />
+    <text key="name:zh_pinyin" text="中文拼音(可选)" />
+    
+  </chunk>
   <!-- chunks made for particular sets -->
   <chunk id="convenience">
     <key key="shop" value="convenience" />
-    <text key="name" text="店名" />
+    <reference ref="name" />
     <reference ref="addr" />
     <reference ref="wheelchair" />
     <reference ref="open_hours" />
   </chunk>
   <chunk id="supermarket">
     <key key="shop" value="supermarket" />
-    <text key="name" text="店名" />
+    <reference ref="name" />
     <reference ref="addr" />
     <reference ref="wheelchair" />
     <reference ref="atm" />
