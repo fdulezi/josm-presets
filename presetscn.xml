@@ -47,6 +47,13 @@
     <reference ref="wheelchair" />
     <reference ref="open_hours" />
   </chunk>
+  <chunk id="bank">
+    <key key="shop" value="bank" />
+    <reference ref="name" />
+    <reference ref="addr" />
+    <reference ref="wheelchair" />
+    <reference ref="open_hours" />
+  </chunk>
   <chunk id="supermarket">
     <key key="shop" value="supermarket" />
     <reference ref="name" />
@@ -193,7 +200,7 @@
       <item name="中国联通">
         <key key="name" value="中国联通xx营业厅"/>
         <key key="brand" value="中国联通"/>
-        <key key="brand:en" value=China Unicom"/>
+        <key key="brand:en" value="China Unicom"/>
         <key key="operator" value="中国联通"/>
         <reference ref="tel_com" />
       </item>
