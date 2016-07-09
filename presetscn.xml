@@ -29,6 +29,9 @@
   <!--not finished yet-->
 
 <!--=====chunks=====-->
+  <chunk id="addr">
+    <key key="addr:country" value="CN" />
+  </chunk>
   <chunk id="name">
     <!--name ref:
     https://wiki.openstreetmap.org/wiki/Multilingual_names#China
